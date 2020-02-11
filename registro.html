@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+      <!-- NavBAR LOGO -->
+  <nav class="navbar navbar-light bg-light ">
+    <a class="navbar-brand"><img class="logo" src="img/logo.png"></a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </nav>
+  <!-- NavBar menus -->
+  <nav class="navbar navbar-expand-lg navbar-light fondoNav">
+    <div class="oscuro">
+    <a class="navbar-brand letraClara" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+       <a class="nav-item nav-link active medio" href="index.html#plants">Plantas <span class="sr-only">(current)</span></a>
+       <a class="nav-item nav-link medio" href="index.html#seeds">Semillas </a>
+       <a class="nav-item nav-link medio" href="index.html#tools">Herramientas </a>
+      </div>
+      <ul class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#" id="iniciar_sesion" onclick=iniciarSesion()>Iniciar Sesión</a>
+        <b class="nav-link" id="usuario"></b>
+        <a class="nav-item nav-link" href="#" id="cerrar_Sesion" onclick=cerrarSesion()>Cerrar Sesión</a>
+        <a class="nav-item nav-link" href="registro.html" id="registro" onclick=registrarse()>Registrarse</a>
+      </ul>
+    </div>
+  </nav>
+  <br><br>
+  <div class="registro">
+    <div>
+        <label>Usuario</label>
+        <input placeholder="Sin espacios" type="text" id="name"></input>
+    </div>
+    <div>
+        <label>Correo</label>&nbsp;
+        <input placeholder="Escriba su correo" type="email" id="email"></input>
+    </div>
+    <div>
+        <label>Contraseña</label>
+        <input  placeholder="Mínimo 6 caracteres" type="password" id="password"></input>
+    </div>
+    <button class="btn btn-light" onclick="registrar()">Registro</button>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+<script src="js/registro.js"></script>
+</body>
+</html>

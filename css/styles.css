@@ -1,0 +1,72 @@
+.logo{
+    height: 80px;
+    width: auto;
+}
+
+.fondoNav{
+    background-color: rgb(130,228,163);
+    padding: 0 0 0 0;
+}
+
+.background {
+    background-color: black;
+    height: 100px;
+    margin:0 0 0 0;
+    
+}
+.trans{
+    opacity: 1;
+}
+
+.letrasPromociones{
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+}
+
+.letrasPromociones:hover{
+    color:rgb(51, 211, 107)
+}
+
+.plants{
+    max-width: 350px;
+    height: auto;
+    padding: 3px 3px 3px 3px;
+}
+
+.oscuro{
+background-color: rgb(15,89,52);
+}
+
+.medio{
+    background-color: rgb(51, 211, 107);
+}
+
+.letraClara{
+    color:rgb(130,228,163);
+}
+
+h1{
+    text-align: center;
+    text-decoration: green;
+    
+    background-color: rgb(208,159,149);
+    color:rgb(115,51,40);
+}
+
+h4{
+    color:rgb(0,60,29);
+    text-align: center;
+    font-size: 14px;
+
+}
+
+    /*REGISTRO*/
+
+.registro{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registro : label{
+    padding:15px;
+}
